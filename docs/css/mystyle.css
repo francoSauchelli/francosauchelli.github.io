@@ -1,0 +1,260 @@
+#divBody 
+{
+    padding: 20px;
+    margin: 1vw;
+    max-width: 1920px;
+    background-color: #ffffff;
+    border-radius: 2%;
+    width: 90%;
+}
+
+#logContainer
+{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);   
+    grid-template-rows: repeat(2, 1fr);    
+    align-items: center;
+    position: absolute;
+}
+
+#nodoLogo
+{
+    width: 10%;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+#logoImg
+{
+    margin: 10%;
+    width: 150%;
+}
+
+#divTextoLogo
+{
+    font-family: 'Rock Salt', cursive;
+    max-width: 100px;
+    margin: 10%;
+    position: absolute;
+    top: auto;
+    bottom: 20%;
+    left: 35%;
+}
+
+#h1Titulo
+{
+    font-size: 1.5vw;
+}
+
+#miNavbar 
+{
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D );
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    position: block;
+    display: flex;
+    height: 30px;
+    max-width: 1920px;
+}
+
+.botonesNavbar
+{
+    color: 41252d;
+    border-color: #41252d;
+    background-color: #C06C84;
+    border-radius: 10px;
+    padding: 1px;
+    margin: 0px 10px;
+}
+
+#divBuscador
+{
+    position: relative;
+    display: flex;
+    float: right;
+    right: 20%;
+}
+
+#iconBuscar
+{
+    color: #355C7D;
+}
+
+#divEstadoLog
+{
+    display: flex;
+    justify-content: right;
+    right: 0%;
+    max-width: 1920px;
+}
+
+#botonUser
+{
+    color: 41252d;
+    border-color: white;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px 10px;
+    font-size: 30px;
+}
+
+#formLog
+{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    display: block;
+    flex-wrap: wrap;
+    grid-row-start: 0;
+    grid-row-start: 1;
+    align-items: center;
+    position: relative;
+}
+
+#formLog label,
+#formLog input
+{
+    left: 20%;
+    text-align: left;
+    margin-top: 20px;
+    width: 200px;
+    height: 20px;
+}
+
+#divPublicidad,
+#divPublicidad video
+{
+    position: absolute;
+    left: 0%;
+    max-width: 1920px;
+    width: 90vw;
+}
+
+#formLogDown
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 0;
+    grid-row-start: 1;
+    top: 0%;
+    position: absolute;
+}
+
+.botonLog
+{
+    display: flex;
+    margin: 10px;
+    width: 200px;
+}
+
+#formLogDown li
+{
+    font-family: 'Rock Salt', cursive;
+    font-weight: bold;  
+    list-style: none; 
+    margin: 10px;
+    color: #4f37d9;
+}
+
+#divFormulario
+{
+    position: relative;
+    margin: 10% 10%;
+}
+
+#divFormulario div
+{
+    display: flex;
+}
+
+.itemDiv 
+{
+    margin: 3%; 
+    padding: 10px;
+}
+
+.itemDiv img
+{
+    display: block;
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.itemDiv h5,
+.itemDiv h6
+{
+    text-align: center;
+}
+
+#botonMenos,
+#botonMas
+{
+    display: block;
+
+    border-color: white;
+    border-radius: 5px;
+    font-size: medium;
+    width: 25px;
+    margin: 0px 0px 0px auto;
+}
+
+#nodoNum
+{
+    position: relative;
+
+    width: 25px;
+    margin: 0 auto;
+    border-radius: 50px;
+    position: relative;
+    bottom: 11%;
+    left: 30%;
+    padding: 5px;
+}
+
+#carritoBTN
+{
+    border-color: white;
+    border-radius: 5px;
+    font-size: medium;
+    width: 40px;
+    margin: 0% 0% 30% 80%;
+}
+
+#carritoBTN  i
+{   
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#divMenuCarrito
+{
+    width: 100%;
+}
+
+#menuCarrito
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border-color: grey;
+    display: flex;
+    margin-right: 5%;
+    margin-left: auto;
+}
+
+#menuCarritoImg
+{
+    display: flex;
+    margin: auto;
+}
+
+#sadEmoji
+{
+    font-size: 10vw;
+    margin: 15%;
+}

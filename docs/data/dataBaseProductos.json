@@ -1,0 +1,100 @@
+{
+    "data": 
+    [
+        {
+            "id": 1, 
+            "categoria": "1", 
+            "marca": "1", 
+            "nombreProducto": "Campera Boca Adidas", 
+            "genero": "3",
+            "talle": "L", 
+            "precio": 12220, 
+            "stock": 12, 
+            "imagen": "imgs/1_1.jpg"
+        },
+
+        {
+            "id": 2, 
+            "categoria": "1", 
+            "marca": "2", 
+            "nombreProducto": "Buzo Nike Running Division", 
+            "genero": "2",
+            "talle": "M", 
+            "precio": 16499, 
+            "stock": 32, 
+            "imagen": "imgs/2_1.jpg"
+        },
+
+        {
+            "id": 3, 
+            "categoria": "1", 
+            "marca": "3", 
+            "nombreProducto": "Campera Puma Power Colorblock", 
+            "genero": "3",
+            "talle": "M", 
+            "precio": 11109, 
+            "stock": 68, 
+            "imagen": "imgs/3_1.jpg"
+        },
+
+        {
+            "id": 4, 
+            "categoria": "3", 
+            "marca": "4", 
+            "nombreProducto": "Pantalon Under Armour Negro", 
+            "genero": "3",
+            "talle": "S", 
+            "precio": 10580, 
+            "stock": 27, 
+            "imagen": "imgs/4_1.jpg"
+        },
+
+        {
+            "id": 5, 
+            "categoria": "3", 
+            "marca": "1", 
+            "nombreProducto": "Calza Adidas Alphaskin Purp.", 
+            "genero": "2",
+            "talle": "XL", 
+            "precio": 11999, 
+            "stock": 12, 
+            "imagen": "imgs/5_1.jpg"
+        },
+
+        {
+            "id": 6, 
+            "categoria": "3", 
+            "marca": "2", 
+            "nombreProducto": "Calza Nike Favourite", 
+            "genero": "1",
+            "talle": "M", 
+            "precio": 5299, 
+            "stock": 16, 
+            "imagen": "imgs/1_1.jpg"
+        },
+
+        {
+            "id": 7, 
+            "categoria": "4", 
+            "marca": "1", 
+            "nombreProducto": "Botines Adidas Speedflow Niño", 
+            "genero": "1",
+            "talle": "27", 
+            "precio": 10668, 
+            "stock": 23, 
+            "imagen": "imgs/7_1.jpg"
+        },
+
+        {
+            "id": 8, 
+            "categoria": "4", 
+            "marca": "1", 
+            "nombreProducto": "Zapatillas Adidas Superstar", 
+            "genero": "4",
+            "talle": "38", 
+            "precio": 20499, 
+            "stock": 80, 
+            "imagen": "imgs/8_1.jpg"
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Now</title>
+    <!-- estilos css -->
+    <link rel="stylesheet" href="css/mystyle.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- vinculación archivos js -->
+        
+        <!-- SE QUITA PARA CONECTAR MEDIANTE AJAX -->
+        <!-- Data Base (archivo json) -->
+        <!-- <script src="data/dataBase.json"></script> -->
+        
+        <!-- archivo conexión a json - AJAX -->
+        <script src="js/conexionAjax/ajaxProductos.js"></script>
+        <script src="js/conexionAjax/ajaxUsuarios.js"></script>
+        <!-- eventos -->
+        <script src="js/events/events.js"></script>
+        <!-- Sweet Alert 2 - sidebar carrito -->
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- templates -->
+        <script src="js/templates/homeTemplate.js"></script>
+        <script src="js/templates/loginTemplate.js"></script>
+        <script src="js/templates/adminTemplate.js"></script>
+        <script src="js/templates/carritoTemplate.js"></script>
+        <!-- functions js -->
+        <script src="js/productos.js"></script>
+        <script src="js/login.js"></script>
+        <script src="js/admin.js"></script>
+        <script src="js/inputsAdmin.js"></script>
+        <script src="js/categorias.js"></script>
+        <script src="js/marcas.js"></script>
+        <script src="js/genero.js"></script>
+        <script src="js/talle.js"></script>
+        <!-- classes -->
+        <script src="classes/classProductos.js"></script>
+        <script src="classes/classUsuarios.js"></script>
+        <script src="classes/classCarrito.js"></script>
+        <script src="classes/classVarias.js"></script>
+        <!-- main JS -->
+        <script src="js/main.js"></script>
+        <!-- iconos - Font Awesome -->
+        <script src="https://kit.fontawesome.com/c25734dda5.js" crossorigin="anonymous"></script>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+<body id="bodyTag">
+    <div id="divBody">
+    <div id="divBuscador"></div>
+        <div id="divEstadoLog"><h2 id="estadoLog"></h2></div>
+        <nav id="miNavbar">
+            <button id="boton1Navbar" class="botonesNavbar" type="button">Todo</button>
+            <button id="boton2Navbar" class="botonesNavbar" type="button">Login</button>
+        </nav>
+        <div id="logContainer">
+            <div id="formLog"></div>
+            <div id="mensajeError"></div>
+            <div id="containerBTNS"></div>
+            <div id="formLogDown"></div>
+        </div>
+        <div id="carritoCont"></div>
+        <footer>
+            <div id="footerDiv"></div>
+        </footer>
+</body>
+<script lang="javascript">
+    cambiarEstadoLog();    
+    definirEventos();
+</script>
+</html>
